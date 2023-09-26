@@ -1,0 +1,14 @@
+How to create selective extraction.Extract only the file named "important.txt" from the archive "data.tar.gz" to the current directory.
+How to create password protected zip archive
+Create a highly compressed archive named "compressed_data.tar.xz" of the directory "important_data" using the xz compression algorithm at maximum compression level
+Extract the contents of the archive "software_release.zip" to a directory named "release_version_2."
+Create individual compressed archives for each of the directories "dir1," "dir2," and "dir3" using the gzip algorithm.
+
+
+
+#!bin/bash
+yum install httpd -y
+systemctl start httpd
+systemctl enable httpd
+mkdir /var/www/html/mobile
+echo <h1>"Welcome to MOBILE page $HOSTNAME"</h1> >/var/www/html/mobile/index.html
